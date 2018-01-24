@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Assignment2{
 	//main function to debug the functions
-		public static void main(String[] arg){
+	/*public static void main(String[] arg){
 		Scanner reader = new Scanner(System.in);
 		System.out.println("Enter size of the pattern");
 		
@@ -27,7 +27,7 @@ public class Assignment2{
 		}
 		
 		reader.close();
-	}
+	}*/
 	
 	
 	//makePyramid() function to join space string and number string 
