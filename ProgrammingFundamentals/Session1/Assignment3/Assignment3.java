@@ -1,4 +1,3 @@
-package first_project;
 import java.util.Arrays;
 /*
 *
