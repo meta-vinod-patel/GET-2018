@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class TestAssignment {
 
-	first obj = new first();
+	Assignment1 obj = new Assignment1();
 	
 	//to test the actual result and expected result	
 	@Test
