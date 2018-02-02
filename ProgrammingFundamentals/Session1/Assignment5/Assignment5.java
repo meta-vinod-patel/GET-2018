@@ -41,6 +41,7 @@ public class Assignment5{
 				for(int counter=0 ; counter<input_array.length-1 ; counter++){
 					if(input_array[counter] < input_array[counter + 1]){
 						token = 1;
+						break;
 					}
 				}
 				
