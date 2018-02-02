@@ -2,9 +2,9 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import java.util.List;
 
-public class TestAssignment1{
+public class TestTowerOfHanoi{
 
-	Assignment1 list = new Assignment1();	
+	TowerOfHanoi list = new TowerOfHanoi();	
 	
 	@Test
 	public void testTowerOfHanoi1(){
