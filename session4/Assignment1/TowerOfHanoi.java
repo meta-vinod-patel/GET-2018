@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Assignment1
+class TowerOfHanoi
 {	
 	List<String> list = new ArrayList<String>();	//creating Array list of string
     
