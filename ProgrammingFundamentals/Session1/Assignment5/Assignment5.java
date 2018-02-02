@@ -37,7 +37,7 @@ public class Assignment5{
 					return 1;
 				}
 				
-			}else if(input_array[0] >= input_array[1]){
+			}else{
 				for(int counter=0 ; counter<input_array.length-1 ; counter++){
 					if(input_array[counter] < input_array[counter + 1]){
 						token = 1;
