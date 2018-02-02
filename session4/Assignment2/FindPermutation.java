@@ -2,8 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-public class Assignment3
-{
+public class FindPermutation {
 
     static List<String> resultString = new ArrayList<String>();
     public static void main(String[] args)
