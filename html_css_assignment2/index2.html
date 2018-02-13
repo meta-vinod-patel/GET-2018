@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main2.css" type="text/css">
+</head>
+<style>
+    
+			#page{
+				display : block;
+			}
+			input:checked +#page{
+				display:none;
+			}
+</style>
+<body>
+    <div class="header">
+        <div class="_posi">
+            <div class="logo">
+                <a href="#">Interstellar</a>
+            </div>
+        </div>
+    </div>
+    <div class="sub_header">
+          <div class="_posi">
+            <div class="nav">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Images</a>
+                    <a href="#">Video</a>
+                    <a href="#">About</a>
+                </nav>
+            </div>  
+          </div>      
+    </div>
+    <div class="wrapper">
+        <div class="_posi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 left">
+                        <div class="ver_menu">
+                            <label for = "v-menu"><h1>vertical menu</h1></label>
+                            <input id = "v-menu"type = "checkbox" hidden >
+                            <div id="page">
+                                <ul>
+                                    <li><a href="#">New Page</a></li>
+                                    <li><a href="#">New Page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="new_block">
+                            <h1>New Block</h1>
+                            <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6" style="margin-left:310px;">
+                        <div class="post_head">
+                                <h1>New Post</h1>
+                                <div class="addNewPost">
+                                    <form action="#" method="post">
+                                        <textarea name="" id="" cols="103" rows="3" placeholder="What are you doing today ?"></textarea>
+                                        <input type="submit" value="Post">
+                                    </form>
+                                </div>
+                        </div>    
+                        <div class="post">
+                            <img src="image/post.jpg" alt="">
+                            <h2>Why do we use it?</h2>
+                            <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </p>
+                        </div>
+                    </div>
+                        
+                    <div class="col-md-2 right" style="margin-left:975px;">
+                        <div class="ver_menu">
+                            <h1>Search</h1>
+                            <form action="#" method="post">
+                                <input type="text" class="search" placeholder="Search..">
+                                <input type="submit"  class="searchbtn" value="Search">
+                            </form>
+                        </div>
+                        <br>
+                        <div class="new_block">
+                            <h1>Categories</h1>
+                            <ul class="categories">
+                                    <li><a href="#">All news(50)</a></li>
+                                    <li><a href="#">Post of the year</a></li>
+                                    <li><a href="#">Hyperlink</a></li>
+                            </ul>
+                        </div>
+                        <div class="new_block">
+                            <h1>Archives</h1>
+                            <ul class="categories">
+                                    <li><a href="#">All news(50)</a></li>
+                                    <li><a href="#">Post of the year</a></li>
+                                    <li><a href="#">Hyperlink</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
