@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+._posi{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.header{
+    padding:10px;
+    border-bottom:2px solid rgb(4, 105, 163); 
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.logo{
+    float: left;
+}
+
+.logo a{
+    color: rgb(4, 105, 163);
+    text-decoration: none;
+    font-size: 28px;
+    font-weight:300;
+}
+
+.nav{
+    float:right;
+    margin-top:10px;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+    background:rgb(237, 249, 255);
+    color:rgb(4, 105, 163);
+    border:1px solid rgb(4, 105, 163);
+    border-radius: 3px;
+}
+
+.header_image img{
+    width: 100%;
+}
+
+.wrapper{
+    background: rgb(247, 247, 247);
+}
+
+.profile_pic img{
+    padding: 4px;
+    box-shadow: 0 0 3px #000;
+    margin-top: -200px;
+    background: #fff;
+}
+
+.follow_btn{
+    margin:20px 0 0 0px;
+}
+.followbtn{
+    text-decoration: none;
+    padding:10px 37px 10px 37px;
+    background:rgb(237, 249, 255);
+    color:rgb(4, 105, 163);
+    border:1px solid rgb(4, 105, 163);
+    border-radius:3px; 
+}
+
+.followlnk{
+    text-decoration: none;
+    padding:10px 37px 10px 37px;
+    color:rgb(4, 105, 163);
+    border-radius:3px; 
+    margin-left:10px;
+}
+
+.followlnk:hover{
+    background:rgb(11, 111, 173);
+    color: #fff;
+}
+
+.user_info{
+    margin-top: 20px;
+    overflow: hidden;
+    padding-bottom:20px; 
+}
+
+.user_info1{
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 3px rgb(112, 112, 112);
+    border-radius: 3px;
+    float:left;
+    width:185px;
+}
+.user_info2{
+    padding: 10px;
+    background: #fff;
+    margin-left:20px;
+    box-shadow: 0 0 3px rgb(112, 112, 112);
+    border-radius: 3px;
+    float: left;
+    width:500px;
+}
+
+.personal_info h1{
+    font-size: 22px;
+    text-align: center;
+}
+
+.personal_info h2{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.pro_info h1{
+    font-weight:500;
+    font-size: 22px;
+}
