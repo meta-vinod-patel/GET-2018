@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8 {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h2, p {
+	text-align: center;
+}
+</style>
+<script src="js/dragdrop.js"></script>
+</head>
+
+<body>
+	<h2>Drag and Drop</h2>
+	<p>Drag the image from one box to another elements.</p>
+
+	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+	  <img src="images/bg.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="100%">
+	</div>
+
+	<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</body>
+</html>
