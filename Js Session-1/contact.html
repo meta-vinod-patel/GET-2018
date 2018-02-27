@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+	<title>
+		Contact Page
+	</title>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body onload="init()">
+
+<!-- Navbar -->
+<table width="80%" align="center">
+	<tr>
+		<td>
+			<img src="images/logo.png" alt="logo" height="100px" >
+		</td>
+		<td align="right" width="70%" id="mylist">
+			<font size="4px;"><a href="#"> <!--onclick="changeScreen('index');"-->Home</a>&nbsp;
+			<a href="#"> <!--onclick="changeScreen('about');" --> About</a>&nbsp;
+			<a href="#"> <!-- onclick="changeScreen('product');" -->Product</a>&nbsp;
+			<a href="#"> <!-- onclick="changeScreen('gallery');" -->Gallery</a>&nbsp;
+			<a href="#"> <!-- onclick="changeScreen('contact');" -->Contact</a>&nbsp;</font>
+		</td>
+	</tr>
+</table>
+<hr width="85%" align="center"><br/>
+
+<!-- Image -->
+<p align="center" margin-top="10%"><img src="images/contact.jpg" alt="contact" width="80%" ></p>
+<br/></br>
+
+<!-- Form -->
+<form>
+	<table align="center">
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="Name" onblur="validateName(this);"></td>
+		</tr>
+		
+		<tr>
+			<td>Email</td>
+			<td><input type="text" name="Email" onblur="validateEmail(this);"></td>
+		</tr>
+		
+		<tr>
+			<td>City</td>
+			<td>
+				<select name="City" onchange="showCity(this.value);">
+					<option value="Udaipur">Udaipur</option>
+					<option value="Jaipur">Jaipur</option>
+					<option value="Delhi">Delhi</option>
+					<option value="Jhansi">Jhansi</option>
+					<option value="Bangalore">Bangalore</option>
+					<option value="Pune">Pune</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td><input type="text" id="selectCity" value="Norway" readonly></td>
+		</tr>	
+		
+		<tr>
+			<td>Organization Name</td>
+			<td><input type="text" name="OrganizationName" onblur="validateOrganization(this);"></td>
+		</tr>	
+		
+		<tr>
+			<td>Contact Number</td>
+			<td><input type="text" name="PhoneNumber" onblur="validatePhoneNumber(this);"></td>
+		</tr>
+	
+		<tr>
+			<td>Message</td>
+			<td><textarea cols="25" rows="5" onblur="validateMessage(this);"></textarea></td>
+		</tr>
+		
+		<tr >
+			<td>
+				<input type="submit" name="Submit" value="Submit">
+			</td>
+		</tr>
+
+	</table>
+</form>
+<br/><br/>
+<hr width="85%" align="center"><br/>
+
+<!-- Footer -->
+<table align="center">
+	<tr>
+		<td>
+			&copy;Copyright 2016-2017 | All Rights Reserved | <font color="blue">MetaCube</font> Training
+		</td>
+	</tr>
+</table>
+</br></br></br>
+</body>
+</html>
